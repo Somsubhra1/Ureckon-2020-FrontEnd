@@ -24,14 +24,29 @@ button:focus {
 
 body {
     background: linear-gradient(90deg, #1a67b8, #2572d9, #51e1ff, #e9e6ff);
-    background: #7474BF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #348AC7, #7474BF); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+    background: #7474bf; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #348ac7,
+        #7474bf
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #348ac7,
+        #7474bf
+    ); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 
-
-background: #FF8008;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ff8008; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #ffc837,
+        #ff8008
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #ffc837,
+        #ff8008
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     background-size: 600% 100%;
     animation: bggradient 10s linear infinite;
@@ -76,13 +91,17 @@ background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, F
     overflow: auto;
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
         0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 15px;
+    border-radius: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
-    padding-bottom: 20px;   
-    
+    padding-bottom: 20px;
 }
 
+@media screen and (max-width: 500px) {
+    .login-wrap {
+        width: calc(100% - 160px);
+    }
+}
 #signinbox {
     display: block;
     float: left;
