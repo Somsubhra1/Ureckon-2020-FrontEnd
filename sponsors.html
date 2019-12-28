@@ -6,8 +6,14 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Sponsors</title>
         <link rel="stylesheet" href="css/sponsors.css" />
+        <link rel="stylesheet" href="css/spinner.css" />
     </head>
     <body>
+        <!-- Spinner -->
+        <div class="cxq-spinner cxq-spinner--doubleBounce">
+            <div class="cxq-spinner-hexagon cxq-spinner-hexagon-1"></div>
+            <div class="cxq-spinner-hexagon cxq-spinner-hexagon-2 "></div>
+        </div>
         <div class="c">
             <img src="images/logo_icon_white.svg" alt="" height="100" />
             <div class="p">
@@ -82,5 +88,18 @@
             crossorigin="anonymous"
         ></script>
         <script src="js/sponsors.js"></script>
+
+        <!-- Spinner Script -->
+        <script>
+            $(document).ready(function () {
+                $(".c").hide();
+                $("body").css("background", "#fff");
+                setTimeout(() => {
+                    $(".cxq-spinner").hide();
+                    $("body").css("background", "#434a54");
+                    $(".c").fadeIn(1000);
+                }, 3000);
+            });
+        </script>
     </body>
 </html>

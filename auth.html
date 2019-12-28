@@ -9,8 +9,13 @@
   </head>
 
   <link rel="stylesheet" href="./css/auth.css">
+  <link rel="stylesheet" href="./css/spinner.css">
   <body>
-      
+      <!-- Spinner -->
+    <div class="cxq-spinner cxq-spinner--doubleBounce">
+        <div class="cxq-spinner-hexagon cxq-spinner-hexagon-1"></div>
+        <div class="cxq-spinner-hexagon cxq-spinner-hexagon-2 "></div>
+    </div>
     <div class="bgline"></div>
     <div class="login">
         <div class="login-wrap">
@@ -51,5 +56,20 @@
 
     <!-- Auth JS script -->
     <script src="js/auth.js"></script>
+
+    <!-- Spinner Script -->
+    <script>
+        $(document).ready(function () {
+            $(".bgline, .login").hide();
+            $("body").css("background-color", "#fff");
+            setTimeout(() => {
+                $(".cxq-spinner").hide();
+                // $("body").css("background-color", "#1e1f23");
+                $(".bgline, .login").fadeIn(1000);
+            }, 3000);
+        });
+
+
+    </script>
   </body>
 </html>

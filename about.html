@@ -5,9 +5,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/spinner.css" />
 	</head>
 	<body>
-
+		<!-- Spinner -->
+		<div class="cxq-spinner cxq-spinner--doubleBounce">
+			<div class="cxq-spinner-hexagon cxq-spinner-hexagon-1"></div>
+			<div class="cxq-spinner-hexagon cxq-spinner-hexagon-2 "></div>
+		</div>
 		<!-- Header -->
 			<header id="header">
 				<div class="logo">
@@ -53,6 +58,21 @@
 			<script src="js/skel.min.js"></script>
 			<script src="js/util.js"></script>
 			<script src="js/about.js"></script>
+			
+			<!-- Spinner Script -->
+			<script>
+				$(document).ready(function () {
+						$("#header, #main, #footer").hide();
+						$("body").css("background-color", "#fff");
+						setTimeout(() => {
+							$(".cxq-spinner").hide();
+							$("body").css("background-color", "#1e1f23");
+							$("#header, #main, #footer").fadeIn(1000);
+						}, 3000);
+					});		
+			
+			
+			</script>
 
 	</body>
 </html>
