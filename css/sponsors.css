@@ -118,7 +118,7 @@ body {
 @media (max-width: 750px) {
     .p {
         margin-left: -200px;
-        margin-top: -120px;
+        margin-top: -140px;
         max-width: 400px;
         width: 400px;
         max-height: fit-content;
