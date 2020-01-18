@@ -336,3 +336,7 @@ body {
     color: #277AC5;
   }
 }
+
+html {
+  overflow-x: hidden;
+}
