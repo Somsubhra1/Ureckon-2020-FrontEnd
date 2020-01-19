@@ -216,7 +216,7 @@ font-size: 0.82rem;}
   top: 0;
   right: 10px;
   font-size: 40px;
-  color: #fff;
+  color: #fff !important;
   cursor: pointer;
 }
 
@@ -465,4 +465,20 @@ font-size: 0.82rem;}
     font-size: 0.6rem;
   }
 
+}
+.event_card > h2 {
+  margin: 1.1em 0;
+}
+
+.event_details_modal {
+  overflow-x: inherit;
+}
+
+.select_box > p{
+  font-size: 2em;
+  /* margin-top: 2px; */
+}
+
+.select_box > p:hover {
+  font-size: 2.5em;
 }
