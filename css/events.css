@@ -178,7 +178,7 @@ body {
   height: 50%;
   margin: 0 3%;
   text-align: center;
-  background: red;
+  /* background: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,19 +195,20 @@ body {
 }
 
 .robotics, .coding{
-  background: #4DD0E1;
+  /* background: #4DD0E1; */
 
 }
 
 .gaming, .uosc{
-background: #FFEB3B;
+/* background: #FFEB3B; */
 }
 
 .flagship, .business{
-background: #283593;
+/* background: #283593; */
 }
 
-.initiatives, .misc{background: #6200EA;
+.initiatives, .misc{
+  /* background: #6200EA; */
 font-size: 0.82rem;}
 
 /* Event Details Modal */
