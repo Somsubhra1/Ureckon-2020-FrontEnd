@@ -52,7 +52,7 @@ body {
 
 .event_card{
   width: calc(65% - 20px);
-  height: calc(50vh - 20px);
+  height: calc(60vh - 20px);
   padding: 10px;
   /* background: blue; */
      background: linear-gradient(45deg, #1c92d2, #f2fcfe);
