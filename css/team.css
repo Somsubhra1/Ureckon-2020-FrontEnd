@@ -211,9 +211,15 @@ body {
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.a {
+    margin-top: 20em;
+}
+
 @media screen and (max-width: 800px) {
-    .container {
-        max-height: inherit;
-        margin-bottom: -47em;
+    hr {
+        margin-top: 20em;
+    }
+    .a {
+        margin-top: 220em;
     }
 }
