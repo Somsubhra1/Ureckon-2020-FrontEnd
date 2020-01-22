@@ -515,3 +515,11 @@ html {
     margin-top: 1.2em;
   }
 }
+
+.btn11, .btn10 {
+  border-radius: 1.2em;
+}
+
+.btn11:hover, .btn10:hover {
+  text-decoration: none;
+}
