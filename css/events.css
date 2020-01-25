@@ -149,7 +149,7 @@ body {
   padding: 0;
   position: relative;
   /* background: url(https://media.giphy.com/media/l3q2KW9gxj2bermVO/giphy.gif); */
-  background: url(https://media.giphy.com/media/l3q2KW9gxj2bermVO/giphy.gif);
+  /* background: url(https://media.giphy.com/media/l3q2KW9gxj2bermVO/giphy.gif); */
   background-size: cover;
   background-position: center;
 }
@@ -209,7 +209,8 @@ body {
 
 .initiatives, .misc{
   /* background: #6200EA; */
-font-size: 0.82rem;}
+font-size: 0.82rem;
+}
 
 /* Event Details Modal */
 .details_modal_close{
@@ -462,8 +463,8 @@ font-size: 0.82rem;}
     font-size: 0.9rem;
   }
 
-  .initiatives{
-    font-size: 0.6rem;
+  .initiatives, .misc{
+    font-size: 0.7rem;
   }
 
 }
@@ -476,10 +477,11 @@ font-size: 0.82rem;}
 }
 
 .select_box > p{
-  font-size: 2em;
+  font-size: 1.2em;
   /* margin-top: 2px; */
+  margin: 3px;
 }
 
 .select_box > p:hover {
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
