@@ -248,6 +248,14 @@ font-size: 0.82rem;
   position: relative;
 }
 
+.right_panel {
+  margin-top: 15px;
+}
+
+.header_quit > h2 {
+  margin-left: 50px;
+}
+
 .event_logo{
   display: block;
   width: calc(100% - 5%);
@@ -380,6 +388,7 @@ font-size: 0.82rem;
   display: block;
   width: calc(90% - 10%);
   margin: 5% 5%;
+  margin-left: 8%;
   padding: 6% 5%;
   background: #da1111;
   text-decoration: none;
