@@ -697,7 +697,7 @@ let eventInfo = [
     name: 'Tech Script',
     email: 'somlina0320@gmail.com',
     about:
-      "Still wondering what to do with your nerdy self and all that knowledge you've gained from different books and online websites? Or perhaps you're a geek with the knowledge wand. To all those computer whizzes, your thirst quencher is here. We, the team URECKON invite you to join TECH SCRIPT.",
+      "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.With this approach, the third edition of Ureckon comes up with Tech Script which is one of the International Competitions of our Annual techno- management festival.Any sufficiently advance technology is synonymous to magic.However, the key does not lie in the already proven laws, but how one can incorporate their imagination into the laws and come up with new ideas.So what is the wait for??  URECKON 2020 invites you to share your theories with us and get recognized.Let the technical worms in your minds get to work.",
     coordinators: [
       {
         name: 'Somlina Ghosh Ray',
