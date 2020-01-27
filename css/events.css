@@ -475,6 +475,12 @@ font-size: 0.82rem;
   .initiatives, .misc{
     font-size: 0.7rem;
   }
+  .event_card {
+    width: 80%;
+  }
+  .event_card > img {
+    width: 50%;
+  }
 
 }
 .event_card > h2 {
