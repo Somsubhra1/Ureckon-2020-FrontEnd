@@ -523,3 +523,7 @@ html {
 .btn11:hover, .btn10:hover {
   text-decoration: none;
 }
+
+html {
+  overflow-y: hidden;
+}
