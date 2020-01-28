@@ -527,3 +527,71 @@ html {
 html {
   overflow-y: hidden;
 }
+
+body{margin:0;}
+.s-media{
+ position: fixed;
+ top: 100px ;
+ left: 0;
+ z-index: 1000;
+ transition:all linear 0.2s ;
+}
+.s-media a:first-child{
+    border-radius: 0 5px 0 0;
+}
+.s-media a:last-child{
+    border-radius: 0 0 5px 0;
+}
+.s-item {
+    display:block;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+
+    transition:all linear 0.2s ;
+}
+.s-item:hover {
+    width:70px;
+    
+}
+
+#sm-open {
+    position: fixed;
+    top: 100px ;
+    left: -60px;
+    border-radius:0 30px 30px 0;
+    
+    transition:all linear 0.2s ;
+}
+.facebook {background-color: #305891;}
+.twitter {background-color: #3AAFD6;}
+.gplus {background-color: #F8694D; }
+.insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.linkedin {
+  background-color: #0170AB;
+}
+.youtube {
+  background-color: #F80000;
+}
+.print {background-color: #7CB0A4;}
+.sm-collapse{left: -60px; }
+
+
+.s-item:hover {
+  color: #fff;
+}
+
+#sm-close {
+  color: #fff;
+}
+
+#sm-open {
+  color: #fff;
+  z-index: 21;
+}
