@@ -257,7 +257,7 @@ let eventInfo = [
 
   // Direcion
   {
-    name: 'Direcion',
+    name: 'Dirrecion',
     email: 'tatha.b10@gmail.com',
     about:
       "\"Triumphant starts with knowing exactly where you're going and how you'll reach there. URECKON brings the event DIRRECION, where your Bot has to reach the destination without loosing the trail. With minimum time loss, test your power in designing and governing your Bots! Embrace the opportunity to attain the aim and win yourself the glory!",
