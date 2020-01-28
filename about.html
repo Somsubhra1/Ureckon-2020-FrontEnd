@@ -7,13 +7,32 @@
 		<link rel="stylesheet" href="css/about.css" />
 		<link rel="stylesheet" href="css/spinner.css" />
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/b767bbfe51.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/nav.css">
 
 	</head>
 	<body>
+		
 		<!-- Spinner -->
 		<div class="cxq-spinner cxq-spinner--doubleBounce">
 			<div class="cxq-spinner-hexagon cxq-spinner-hexagon-1"></div>
 			<div class="cxq-spinner-hexagon cxq-spinner-hexagon-2 "></div>
+		</div>
+
+		<div id="circularMenu" class="circular-menu">
+		
+			<a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+				<i class="fa fa-plus"></i>
+			</a>
+		
+			<menu class="items-wrapper">
+				<a href="/" class="menu-item fas fa-home"></a>
+				<a href="auth.html" class="menu-item fas fa-user"></a>
+				<a href="events.html" class="menu-item far fa-calendar-plus"></a>
+				<a href="about.html" class="menu-item fas fa-question-circle"></a>
+			</menu>
+		
 		</div>
 		<!-- Header -->
 			<header id="header">
@@ -64,12 +83,12 @@
 			<!-- Spinner Script -->
 			<script>
 				$(document).ready(function () {
-						$("#header, #main, #footer").hide();
+						$("#header, #main, #footer, #circularMenu").hide();
 						$("body").css("background-color", "#fff");
 						setTimeout(() => {
 							$(".cxq-spinner").hide();
 							$("body").css("background-color", "#1e1f23");
-							$("#header, #main, #footer").fadeIn(1000);
+							$("#header, #main, #footer, #circularMenu").fadeIn(1000);
 						}, 3000);
 					});		
 			

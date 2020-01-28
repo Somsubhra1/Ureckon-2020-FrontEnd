@@ -595,3 +595,7 @@ body{margin:0;}
   color: #fff;
   z-index: 21;
 }
+
+.floating-btn:hover {
+  color: #fff !important;
+}

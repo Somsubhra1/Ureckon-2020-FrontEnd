@@ -500,3 +500,7 @@ font-size: 0.82rem;
 .select_box > p:hover {
   font-size: 1.5em;
 }
+
+.floating-btn:hover {
+  color: #fff !important;
+}

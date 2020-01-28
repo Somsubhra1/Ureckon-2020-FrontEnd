@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/spinner.css" />
     <link rel="stylesheet" href="css/events.css" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/nav.css">
   </head>
   <body>
     <!-- Spinner -->
@@ -28,6 +29,21 @@
       <div class="cxq-spinner-hexagon cxq-spinner-hexagon-2 "></div>
     </div>
     <!-- Insert Nav -->
+
+    <div id="circularMenu" class="circular-menu" style="z-index: 1;">
+    
+      <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+        <i class="fa fa-plus"></i>
+      </a>
+    
+      <menu class="items-wrapper">
+        <a href="/" class="menu-item fas fa-home"></a>
+        <a href="auth.html" class="menu-item fas fa-user"></a>
+        <a href="events.html" class="menu-item far fa-calendar-plus"></a>
+        <a href="about.html" class="menu-item fas fa-question-circle"></a>
+      </menu>
+    
+    </div>
 
     <!-- Main Wrapper -->
     <div class="wrapper_container">
@@ -538,12 +554,12 @@
       <!-- Spinner Script -->
       <script>
         $(document).ready(function () {
-          $(".wrapper_container, a.select_event_button").hide();
+          $(".wrapper_container, a.select_event_button, #circularMenu").hide();
           $("body").css("background-color", "#fff");
           setTimeout(() => {
             $(".cxq-spinner").hide();
             // $("body").css("background-color", "#1e1f23");
-            $(".wrapper_container, a.select_event_button").fadeIn(1000);
+            $(".wrapper_container, a.select_event_button, #circularMenu").fadeIn(1000);
           }, 7000);
         });
 

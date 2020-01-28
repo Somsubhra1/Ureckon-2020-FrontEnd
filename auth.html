@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="./css/auth.css">
   <link rel="stylesheet" href="./css/spinner.css">
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b767bbfe51.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/nav.css">
 
   <body>
       <!-- Spinner -->
@@ -18,6 +20,22 @@
         <div class="cxq-spinner-hexagon cxq-spinner-hexagon-1"></div>
         <div class="cxq-spinner-hexagon cxq-spinner-hexagon-2 "></div>
     </div>
+
+    <div id="circularMenu" class="circular-menu">
+    
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+            <i class="fa fa-plus"></i>
+        </a>
+    
+        <menu class="items-wrapper">
+            <a href="/" class="menu-item fas fa-home"></a>
+            <a href="auth.html" class="menu-item fas fa-user"></a>
+            <a href="events.html" class="menu-item far fa-calendar-plus"></a>
+            <a href="about.html" class="menu-item fas fa-question-circle"></a>
+        </menu>
+    
+    </div>
+
     <div class="bgline"></div>
     <div class="login">
         <div class="login-wrap">
@@ -62,12 +80,12 @@
     <!-- Spinner Script -->
     <script>
         $(document).ready(function () {
-            $(".bgline, .login").hide();
+            $(".bgline, .login, #circularMenu").hide();
             $("body").css("background-color", "#fff");
             setTimeout(() => {
                 $(".cxq-spinner").hide();
                 // $("body").css("background-color", "#1e1f23");
-                $(".bgline, .login").fadeIn(1000);
+                $(".bgline, .login, #circularMenu").fadeIn(1000);
             }, 3000);
         });
 
