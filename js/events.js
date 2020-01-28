@@ -65,17 +65,17 @@ gaming.addEventListener('click', () => {
   selectPanel();
 });
 
-uosc.addEventListener('click', () => {
-  uoscEvent.style.display = 'block';
-  roboticsEvent.style.display = 'none';
-  codingEvent.style.display = 'none';
-  gamingEvent.style.display = 'none';
-  flagEvent.style.display = 'none';
-  busEvent.style.display = 'none';
-  intEvent.style.display = 'none';
-  miscEvent.style.display = 'none';
-  selectPanel();
-});
+// uosc.addEventListener('click', () => {
+//   uoscEvent.style.display = 'block';
+//   roboticsEvent.style.display = 'none';
+//   codingEvent.style.display = 'none';
+//   gamingEvent.style.display = 'none';
+//   flagEvent.style.display = 'none';
+//   busEvent.style.display = 'none';
+//   intEvent.style.display = 'none';
+//   miscEvent.style.display = 'none';
+//   selectPanel();
+// });
 
 flag.addEventListener('click', () => {
   flagEvent.style.display = 'block';
