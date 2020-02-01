@@ -835,3 +835,6 @@ _28.addEventListener('click', () => fillDetails(28));
 var _29 = document.querySelector('._29');
 _29.addEventListener('click', () => fillDetails(29));
 
+$(document).ready(function () {
+  selectPanel();
+})
