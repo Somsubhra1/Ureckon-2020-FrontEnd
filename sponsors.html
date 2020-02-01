@@ -117,12 +117,12 @@
         <!-- Spinner Script -->
         <script>
             $(document).ready(function () {
-                $(".c").hide();
+                $(".c, #circularMenu").hide();
                 $("body").css("background", "#fff");
                 setTimeout(() => {
                     $(".cxq-spinner").hide();
                     $("body").css("background", "#434a54");
-                    $(".c").fadeIn(1000);
+                    $(".c, #circularMenu").fadeIn(1000);
                 }, 3000);
             });
         </script>
