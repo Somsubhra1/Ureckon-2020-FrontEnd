@@ -666,6 +666,10 @@ let eventInfo = [
       {
         name: 'Rishab Das',
         phone: 9874431406
+      },
+      {
+        name: 'Sabyasachi Ganguly',
+        phone: 9874287348
       }
     ],
     type: 'Team',
@@ -770,6 +774,16 @@ const fillDetails = (index) => {
             <p class="contact_name">${coordinators[1].name}</p>
             <a href="tel:${coordinators[1].phone}" class="contact_phone"><img src="./images/icon_phone.svg" alt="Phone" class="phone_logo"></a>
           </div>`;
+  
+    if (event.coordinators[2] !== undefined) {
+      document.querySelector(
+        '.event_contacts'
+      ).innerHTML += `<div class="event_contact">
+            <img class="contact_logo" src="./images/support.png" alt="Support">
+            <p class="contact_name">${coordinators[2].name}</p>
+            <a href="tel:${coordinators[2].phone}" class="contact_phone"><img src="./images/icon_phone.svg" alt="Phone" class="phone_logo"></a>
+          </div>`
+    }
   detailsModal.classList.toggle('modal_close');
 }
 
