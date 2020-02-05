@@ -152,7 +152,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '5'
+    max: '5',
+    image: "images/event_icons/UIC.png"
   },
 
   // Ureck-A-Thon
@@ -172,7 +173,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/HACKATHON.png"
   },
 
   // Tech Expo
@@ -192,7 +194,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '5'
+    max: '5',
+    image: "images/event_icons/TECH EXPO.png"
   },
 
   // Robo Dangal
@@ -212,7 +215,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '5'
+    max: '5',
+    image: "images/event_icons/ROBODANGAL.png"
   },
 
   // Robo League
@@ -232,7 +236,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '5'
+    max: '5',
+    image: "images/event_icons/ROBO LEAGUE.png"
   },
 
   // Need for Torque
@@ -252,7 +257,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/NEED FOR TORQUE.png"
   },
 
   // Direcion
@@ -272,7 +278,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/DIRRECION.png"
   },
 
   // Hold the Grip
@@ -292,7 +299,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/HOLD THE GRIP.png"
   },
 
   // Aerostorm
@@ -312,7 +320,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '2'
+    max: '2',
+    image: "images/event_icons/AEROSTORM.png"
   },
 
   // Bridge-O-Nics
@@ -332,7 +341,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '3'
+    max: '3',
+    image: "images/event_icons/BRIDGE-O-NICS.png"
   },
 
   // Code Ranch
@@ -352,7 +362,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '2'
+    max: '2',
+    image: "images/event_icons/CODE RANCH.png"
   },
 
   // Code Golf
@@ -371,7 +382,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '2'
+    max: '2',
+    image: "images/event_icons/CODE GOLF.png"
   },
 
   // Spyder
@@ -390,7 +402,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '2'
+    max: '2',
+    image: "images/event_icons/SPYDER.png"
   },
 
   // Debugger
@@ -409,7 +422,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '2'
+    max: '2',
+    image: "images/event_icons/DEBUGGER.png"
   },
 
   // Cyber Crime
@@ -429,7 +443,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/CYBER CIPHER.png"
   },
 
   // RSS
@@ -449,7 +464,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '5'
+    max: '5',
+    image: "images/event_icons/RAINBOW SIX SEIGE.png"
   },
 
   // PUBG
@@ -469,7 +485,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/PUBG(MOBILE+EMULATOR).png"
   },
 
   // FIFA
@@ -489,7 +506,8 @@ let eventInfo = [
       }
     ],
     type: 'Solo',
-    max: '1'
+    max: '1',
+    image: "images/event_icons/FIFA.png"
   },
 
   // CSGO
@@ -509,7 +527,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '2'
+    max: '2',
+    image: "images/event_icons/CS GO.png"
   },
 
   // Urecka
@@ -569,7 +588,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/AD-MAD.png"
   },
 
   // Get Set Sell
@@ -589,7 +609,8 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/GET SET SELL.png"
   },
 
   // Idea Preach
@@ -609,7 +630,8 @@ let eventInfo = [
       }
     ],
     type: 'Solo',
-    max: '1'
+    max: '1',
+    image: "images/event_icons/IDEA PREACH.png"
   },
 
   // Healthy Bites
@@ -629,7 +651,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/HEALTHY BITES.png"
   },
 
   // Biotextpression
@@ -649,7 +672,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/BIOTEXPRESSION.png"
   },
 
   // Think Tech
@@ -673,7 +697,8 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '2'
+    max: '2',
+    image: "images/event_icons/THINK TECH.png"
   },
 
   // UICC
@@ -693,7 +718,8 @@ let eventInfo = [
       }
     ],
     type: 'Solo',
-    max: '1'
+    max: '1',
+    image: "images/event_icons/UICC.png"
   },
 
   // Tech Script
@@ -713,7 +739,8 @@ let eventInfo = [
       }
     ],
     type: 'Solo',
-    max: '1'
+    max: '1',
+    image: "images/event_icons/TECH SCRIPT.png"
   },
 
   // Post X
@@ -733,14 +760,18 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '4'
+    max: '4',
+    image: "images/event_icons/POST X.png"
   }
 ];
 
 const fillDetails = (index) => {
   let event = eventInfo[index];
+  console.log(event);
+  
   document.querySelector('.about').innerHTML = event.about;
   document.querySelector('.event_name').innerHTML = event.name;
+  document.querySelector('.event_logo').src = event.image;
   if(event.type === "Both"){
     document.querySelector('.max_members').innerHTML = event.max;
     document.querySelector('.solo').style.display = 'block';

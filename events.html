@@ -7,27 +7,27 @@
     <title>Ureckon | Events</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    /> -->
     <!-- Google Font link -->
     <link
       href="https://fonts.googleapis.com/css?family=Nosifer|Audiowide|Graduate|Roboto+Mono&display=swap"
       rel="stylesheet"
     />
     <script src="https://kit.fontawesome.com/b767bbfe51.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/spinner.css" />
+    <!-- <link rel="stylesheet" href="css/spinner.css" /> -->
     <link rel="stylesheet" href="css/events.css" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/nav.css">
   </head>
   <body>
     <!-- Spinner -->
-    <div class="cxq-spinner cxq-spinner--doubleBounce">
+    <!-- <div class="cxq-spinner cxq-spinner--doubleBounce">
       <div class="cxq-spinner-hexagon cxq-spinner-hexagon-1"></div>
       <div class="cxq-spinner-hexagon cxq-spinner-hexagon-2 "></div>
-    </div>
+    </div> -->
     <!-- Insert Nav -->
 
     <div id="circularMenu" class="circular-menu" style="z-index: 1;">
@@ -434,7 +434,7 @@
     <!-- Event Display Modal -->
     <div class="event_details_modal modal_close">
       <div class="left_panel">
-        <img src="./images/download.jpg" alt="Img" class="event_logo">
+        <img src="./images/download.jpg" alt="Img" class="event_logo" height="100" width="100">
         
         <h2 class="event_name"></h2>
         
@@ -543,28 +543,29 @@
     <!-- Insert Footer -->
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      
       <script src="js/events.js"></script>
 
 
       <!-- Spinner Script -->
       <script>
-        $(document).ready(function () {
-          $(".wrapper_container, a.select_event_button, #circularMenu, .select_event").hide();
-          $("body").css("background-color", "#fff");
-          setTimeout(() => {
-            $(".cxq-spinner").hide();
-            // $("body").css("background-color", "#1e1f23");
-            $(".wrapper_container, a.select_event_button, #circularMenu, .select_event").fadeIn(1000);
-          }, 7000);
-        });
+        // $(document).ready(function () {
+        //   $(".wrapper_container, a.select_event_button, #circularMenu, .select_event").hide();
+        //   $("body").css("background-color", "#fff");
+        //   setTimeout(() => {
+        //     $(".cxq-spinner").hide();
+        //     // $("body").css("background-color", "#1e1f23");
+        //     $(".wrapper_container, a.select_event_button, #circularMenu, .select_event").fadeIn(1000);
+        //   }, 7000);
+        // });
 
 
       </script>

@@ -258,9 +258,10 @@ font-size: 0.82rem;
 
 .event_logo{
   display: block;
-  width: calc(100% - 5%);
+  width: 50%;
   height: 30%;
   margin: 2.5%;
+  margin-left: 25%;
   border-radius: 4px;
   border: 1px solid white;
 }
@@ -507,4 +508,10 @@ font-size: 0.82rem;
 .card_button:hover {
   text-decoration: none;
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .event_logo {
+    width: 60%;
+  }
 }
