@@ -417,7 +417,7 @@ let eventInfo = [
     name: 'Cyber Cipher',
     email: 'sangramjitmaity@gmail.com',
     about:
-      'Want to break the internet? Want to find the secrets of a server Or the vulnerability of a web application or just want to have some fun solving those mind-twisting puzzles come upboard and join the pentesting event at URECKON',
+      'It is an ethical hacking contest in which certain pieces of information called ‘flags’ are hidden in the challenges. Bring a team ready to be tested in cryptography, steganography, cyber forensics, binary exploitation, reverse engineering and other real world problems on their way to  capture the flag. <br> <br>CTF Type: Jeopardy',
     coordinators: [
       {
         name: 'Sangramjit Maity',
