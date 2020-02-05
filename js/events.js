@@ -172,7 +172,7 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '5'
+    max: '4'
   },
 
   // Tech Expo
@@ -212,7 +212,7 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '3/10'
+    max: '5'
   },
 
   // Robo League
@@ -232,7 +232,7 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '4'
+    max: '5'
   },
 
   // Need for Torque
@@ -252,7 +252,7 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '2/4'
+    max: '4'
   },
 
   // Direcion
@@ -312,7 +312,7 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '5'
+    max: '2'
   },
 
   // Bridge-O-Nics
@@ -332,7 +332,7 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '2/3'
+    max: '3'
   },
 
   // Code Ranch
@@ -429,7 +429,7 @@ let eventInfo = [
       }
     ],
     type: 'Both',
-    max: '3'
+    max: '4'
   },
 
   // RSS
@@ -449,7 +449,7 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '4/5'
+    max: '5'
   },
 
   // PUBG
@@ -469,7 +469,7 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '2/4'
+    max: '4'
   },
 
   // FIFA
@@ -629,7 +629,7 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '2/5'
+    max: '4'
   },
 
   // Biotextpression
@@ -649,7 +649,7 @@ let eventInfo = [
       }
     ],
     type: 'Team',
-    max: '2/4'
+    max: '4'
   },
 
   // Think Tech
