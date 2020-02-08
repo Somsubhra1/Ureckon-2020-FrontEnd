@@ -39,6 +39,7 @@ robotics.addEventListener('click', () => {
   busEvent.style.display = 'none';
   intEvent.style.display = 'none';
   miscEvent.style.display = 'none';
+  document.querySelector(".fees").style.display = "block"
   selectPanel();
 });
 
@@ -51,6 +52,7 @@ coding.addEventListener('click', () => {
   busEvent.style.display = 'none';
   intEvent.style.display = 'none';
   miscEvent.style.display = 'none';
+  document.querySelector(".fees").style.display = "block"
   selectPanel();
 });
 gaming.addEventListener('click', () => {
@@ -62,6 +64,7 @@ gaming.addEventListener('click', () => {
   busEvent.style.display = 'none';
   intEvent.style.display = 'none';
   miscEvent.style.display = 'none';
+  document.querySelector(".fees").style.display = "none"
   selectPanel();
 });
 
@@ -86,6 +89,7 @@ flag.addEventListener('click', () => {
   busEvent.style.display = 'none';
   intEvent.style.display = 'none';
   miscEvent.style.display = 'none';
+  document.querySelector(".fees").style.display = "block"
   selectPanel();
 });
 
@@ -98,6 +102,7 @@ bus.addEventListener('click', () => {
   flagEvent.style.display = 'none';
   intEvent.style.display = 'none';
   miscEvent.style.display = 'none';
+  document.querySelector(".fees").style.display = "none"
   selectPanel();
 });
 
@@ -110,6 +115,7 @@ int.addEventListener('click', () => {
   flagEvent.style.display = 'none';
   busEvent.style.display = 'none';
   miscEvent.style.display = 'none';
+  document.querySelector(".fees").style.display = "block"
   selectPanel();
 });
 
@@ -122,6 +128,7 @@ misc.addEventListener('click', () => {
   flagEvent.style.display = 'none';
   busEvent.style.display = 'none';
   intEvent.style.display = 'none';
+  document.querySelector(".fees").style.display = "block"
   selectPanel();
 });
 
