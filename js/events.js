@@ -102,7 +102,7 @@ bus.addEventListener('click', () => {
   flagEvent.style.display = 'none';
   intEvent.style.display = 'none';
   miscEvent.style.display = 'none';
-  document.querySelector(".fees").style.display = "none"
+  document.querySelector(".fees").style.display = "block"
   selectPanel();
 });
 
