@@ -220,6 +220,9 @@ body {
         margin-top: 20em;
     }
     .a {
-        margin-top: 220em;
+        margin-top: 210em;
+    }
+    .b {
+        margin-top: 80em;
     }
 }
