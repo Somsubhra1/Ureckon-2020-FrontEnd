@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Azonix;
+    src: url(../fonts/azonix-font/Azonix-1VB0.otf)
+}
+
 html,
 body {
   margin: 0;
@@ -23,9 +28,11 @@ body {
   height: 15vh;
   margin: 0;
   padding: 0;
-  font-size: 3rem;
+  padding-top: 0.5em;
+  font-size: 3.5rem;
   color: #fff;
-  font-family: 'Nosifer', Helvetica, 'Times New Roman', Times, serif;
+  /* font-family: 'Nosifer', Helvetica, 'Times New Roman', Times, serif; */
+  font-family: Azonix;
   text-align: center;
   background: transparent;
   /* background: red; */
@@ -76,7 +83,8 @@ body {
 .event_card > h2{
   text-align: center;
   color: #fff;
-  font-family: 'Roboto Mono', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Roboto Mono', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Azonix;
   font-size: 1.3rem;
 }
 
@@ -96,7 +104,8 @@ body {
   /* background: yellow; */
     background: #06609c;
   margin: 3px 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Azonix;
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
@@ -191,7 +200,8 @@ body {
 
 .select_box > p{
   font-weight: bold;
-  font-family: 'Graduate', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Graduate', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Azonix;
 }
 
 .robotics, .coding{
@@ -270,7 +280,8 @@ font-size: 0.82rem;
   display: block;
   width: 100%;
   text-align: center;
-  font-family: 'Roboto Mono', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Roboto Mono', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Azonix;
   color: #fff;
   margin: 5px;
   margin-top: 10px;
@@ -302,7 +313,8 @@ font-size: 0.82rem;
 .header_email > h2{
   width: 70%;
   margin-left: 14px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: Azonix;
   color: #fff;
 }
 
@@ -337,7 +349,8 @@ font-size: 0.82rem;
 .contact_name{
   width: 60%;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: Azonix;
   font-weight: bold;
 }
 
@@ -374,7 +387,8 @@ font-size: 0.82rem;
   margin: 0; 
   color: #fff;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Azonix;
 }
 
 .solo_img, .team_img{
@@ -396,7 +410,8 @@ font-size: 0.82rem;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Azonix;
   font-weight: bold;
 } 
 
@@ -420,6 +435,7 @@ font-size: 0.82rem;
   margin: 0 auto;
   color: #fff;
   font-size: 1rem;
+  font-family: Azonix;
 }
 
 /* MEDIA QUERIES */
@@ -465,7 +481,7 @@ font-size: 0.82rem;
     font-size: 1rem;
   }
 
-  .header_quit > h2{font-size: 1.1rem;}
+  .header_quit > h2{font-size: 1.1rem; font-family: Azonix;}
 
   .about{font-size: 0.87rem;}
 
