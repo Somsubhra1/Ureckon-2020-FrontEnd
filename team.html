@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="css/spinner.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b767bbfe51.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/nav.css">
 
 </head>
 <body>
@@ -16,6 +19,25 @@
         <div class="cxq-spinner-hexagon cxq-spinner-hexagon-1"></div>
         <div class="cxq-spinner-hexagon cxq-spinner-hexagon-2 "></div>
     </div>
+
+    <div id="circularMenu" class="circular-menu" style="z-index: 22;">
+    
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+            <i class="fas fa-bars"></i>
+        </a>
+    
+        <menu class="items-wrapper">
+            <a href="/" class="menu-item fas fa-home"></a>
+            <!-- <a href="auth.html" class="menu-item fas fa-user"></a> -->
+            <a href="events.html" class="menu-item far fa-calendar-plus"></a>
+            <a href="sponsors.html" class="menu-item fas fa-handshake"></a>
+            <a href="team.html" class="menu-item fas fa-users"></a>
+    
+        </menu>
+    
+    </div>
+
+
     <!-- Teachers -->
     <div class="container">
         <div class="at-section">
@@ -747,14 +769,14 @@
     <!-- Spinner Script -->
     <script>
         $(document).ready(function () {
-            $(".container, hr").hide();
+            $(".container, hr, #circularMenu").hide();
             $("body").css("background", "#fff");
             setTimeout(() => {
                 $(".cxq-spinner").hide();
                 $("body").css({
                     background: "linear-gradient(to right, #667db6,#0082c8, #0082c8, #667db6)"
                 });
-                $(".container, hr").fadeIn(1000);
+                $(".container, hr, #circularMenu").fadeIn(1000);
             }, 3000);
         });
     </script>

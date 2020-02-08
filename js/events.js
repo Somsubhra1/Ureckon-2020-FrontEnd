@@ -465,7 +465,8 @@ let eventInfo = [
     ],
     type: 'Team',
     max: '5',
-    image: "images/event_icons/RAINBOW SIX SEIGE.png"
+    image: "images/event_icons/RAINBOW SIX SEIGE.png",
+    fees: "₹500 / team"
   },
 
   // PUBG
@@ -486,7 +487,8 @@ let eventInfo = [
     ],
     type: 'Team',
     max: '4',
-    image: "images/event_icons/PUBG(MOBILE+EMULATOR).png"
+    image: "images/event_icons/PUBG(MOBILE+EMULATOR).png",
+    fees: "₹200 / Team"
   },
 
   // FIFA
@@ -507,7 +509,8 @@ let eventInfo = [
     ],
     type: 'Solo',
     max: '1',
-    image: "images/event_icons/FIFA.png"
+    image: "images/event_icons/FIFA.png",
+    fees: "₹100 / participant"
   },
 
   // CSGO
@@ -528,7 +531,8 @@ let eventInfo = [
     ],
     type: 'Team',
     max: '2',
-    image: "images/event_icons/CS GO.png"
+    image: "images/event_icons/CS GO.png",
+    fees: "₹200 / Team"
   },
 
   // Urecka
@@ -770,6 +774,7 @@ const fillDetails = (index) => {
   console.log(event);
   
   document.querySelector('.about').innerHTML = event.about;
+  document.querySelector('.about').innerHTML += event.fees ? `<br> <br>Registration Fees: ${event.fees}` : ""
   document.querySelector('.event_name').innerHTML = event.name;
   document.querySelector('.event_logo').src = event.image;
   if(event.type === "Both"){
