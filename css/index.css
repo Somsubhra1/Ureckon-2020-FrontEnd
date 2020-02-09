@@ -141,7 +141,7 @@ body {
   }
 }
 @keyframes flasBottom {
-  from;
+  from {}
   to {
     border-bottom-color: #fff;
   }
@@ -364,11 +364,13 @@ html {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     background: transparent!important;
+    border: 0.5px solid #c10daf;
 }
 
 
 .btn11:hover{
-    border: 1px solid #transparent;
+    /* border: 1px solid transparent; */
+    border: 0.5px solid #fff;
 	  color: #80ffd3!important;
 }
 .btn11::before {
