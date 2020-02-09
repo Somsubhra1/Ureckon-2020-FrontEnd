@@ -212,7 +212,7 @@ body {
 }
 
 .a {
-    margin-top: 20em;
+    margin-top: 50em;
 }
 
 @media screen and (max-width: 800px) {
@@ -220,7 +220,7 @@ body {
         margin-top: 20em;
     }
     .a {
-        margin-top: 210em;
+        margin-top: 280em;
     }
     .b {
         margin-top: 80em;

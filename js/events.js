@@ -376,7 +376,7 @@ let eventInfo = [
   // Code Golf
   {
     name: 'Code Golf',
-    email: 'sagnik.sengupta56@gmail.com',
+    email: 'abhishekmadhu.uem@gmail.com',
     about:'Tick... tock...tick... tock...You solve your codes, while a timer poses your deadline! Are you up for it? Can you prove to be a smart coder? Here is your chance to blend in to a new adventure of solving codes with the clutches of a fixed time!Code Golf , offered by *Ureckon 2020* provides you this platform. Sink in to the dates : 15-16 February.The greatest Techno-Management fest, awaits your participation!',
     coordinators: [
       {
@@ -396,8 +396,8 @@ let eventInfo = [
   // Spyder
   {
     name: 'Spyder',
-    email: 'sagnik.sengupta56@gmail.com',
-    about:'Tick... tock...tick... tock...You solve your codes, while a timer poses your deadline! Are you up for it? Can you prove to be a smart coder? Here is your chance to blend in to a new adventure of solving codes with the clutches of a fixed time!Code Golf , offered by *Ureckon 2020* provides you this platform. Sink in to the dates : 15-16 February.The greatest Techno-Management fest, awaits your participation!',
+    email: 'soumyadip.note@gmail.com',
+    about: 'We don\'t just build websites.We build websites that SELL ~Christopher Dayagdag. Flaunt your e- creativity.Merge them into websites.And cause people to dig in to the awe of aesthetic vision.Do you think you can own this task ? Do you think you can craft your websites into uniqueness ? Bring on your skills to * Spyder *, a web designing competition offered by the biggest Techno - Management fest, * Ureckon 2020 * !!* 15 - 16 February * awaits your skills to pour in !Bring on the flavour to this competition by indulging in e - art and aesthetism!',
     coordinators: [
       {
         name: 'Kumar Shivam',
@@ -889,8 +889,8 @@ var _27 = document.querySelector('._27');
 _27.addEventListener('click', () => fillDetails(27));
 var _28 = document.querySelector('._28');
 _28.addEventListener('click', () => fillDetails(28));
-var _29 = document.querySelector('._29');
-_29.addEventListener('click', () => fillDetails(29));
+// var _29 = document.querySelector('._29');
+// _29.addEventListener('click', () => fillDetails(29));
 
 $(document).ready(function () {
   selectPanel();
