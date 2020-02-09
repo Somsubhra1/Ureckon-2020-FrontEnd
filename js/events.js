@@ -380,12 +380,12 @@ let eventInfo = [
     about:'Tick... tock...tick... tock...You solve your codes, while a timer poses your deadline! Are you up for it? Can you prove to be a smart coder? Here is your chance to blend in to a new adventure of solving codes with the clutches of a fixed time!Code Golf , offered by *Ureckon 2020* provides you this platform. Sink in to the dates : 15-16 February.The greatest Techno-Management fest, awaits your participation!',
     coordinators: [
       {
-        name: 'Sagnik Sengupta',
-        phone: 9733197523
+        name: 'Yusuf Idrishi',
+        phone: 8910611930
       },
       {
-        name: 'Jagjeet Kaur',
-        phone: 7278722839
+        name: 'Rajdeep',
+        phone: 8240841662
       }
     ],
     type: 'Both',
@@ -400,12 +400,12 @@ let eventInfo = [
     about:'Tick... tock...tick... tock...You solve your codes, while a timer poses your deadline! Are you up for it? Can you prove to be a smart coder? Here is your chance to blend in to a new adventure of solving codes with the clutches of a fixed time!Code Golf , offered by *Ureckon 2020* provides you this platform. Sink in to the dates : 15-16 February.The greatest Techno-Management fest, awaits your participation!',
     coordinators: [
       {
-        name: 'Sagnik Sengupta',
-        phone: 9733197523
+        name: 'Kumar Shivam',
+        phone: 8420355858
       },
       {
-        name: 'Jagjeet Kaur',
-        phone: 7278722839
+        name: 'Soumyadip',
+        phone: 7687028083
       }
     ],
     type: 'Both',
@@ -417,7 +417,7 @@ let eventInfo = [
   {
     name: 'Debugger',
     email: 'ipratikgoel@gmail.com',
-    about: '',
+    about: 'Stop. Debug. Learn. Code.Solve the intricacies that prevent a code from working.Be the debugger, the only dexterous man to get the program running.Do you have what it takes?Register to the *Debugger* , offered by *Ureckon 2020*, the greatest Techno- Management fest.It provides you with a series of problems to be debugged and tested, to judge your capabilities! Why wait ? You are just a click away.',
     coordinators: [
       {
         name: 'Pratik Goel',
