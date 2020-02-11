@@ -34,8 +34,8 @@ body {
     margin-top: -170px;
     max-width: 1000px;
     width: 1000px;
-    max-height: 340px;
-    height: 340px;
+    max-height: fit-content;
+    height: fit-content;
     /* box-shadow: 2px 3px 0 0 rgba(0, 0, 0, 0.2),
         0px -340px 0 0 rgba(0, 0, 0, 0.3); */
     overflow: hidden;
